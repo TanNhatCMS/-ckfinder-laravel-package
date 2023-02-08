@@ -18,7 +18,7 @@ This repository contains the CKFinder 3 Package for Laravel 5.5+.
 1. Add a Composer dependency and install the package.
 
     ```bash
-    composer require ckfinder/ckfinder-laravel-package
+    composer require tannhatcms/ckfinder-laravel-package
     ```
 
 2. Run the command to download the CKFinder code.
@@ -29,7 +29,7 @@ This repository contains the CKFinder 3 Package for Laravel 5.5+.
     php artisan ckfinder:download
     ```
 
-    It will download the required code and place it inside an appropriate directory of the package (`vendor/ckfinder/ckfinder-laravel-package/`).
+    It will download the required code and place it inside an appropriate directory of the package (`vendor/tannhatcms/ckfinder-laravel-package/`).
 
 3. Publish the CKFinder connector configuration and assets.
 
@@ -160,7 +160,7 @@ To find out more about possible connector configuration options please refer to 
 ## Usage
 
 The package code contains a couple of usage examples that you may find useful. To enable them, uncomment the `ckfinder_examples`
-route in `vendor/ckfinder/ckfinder-laravel-package/src/routes.php`:
+route in `vendor/tannhatcms/ckfinder-laravel-package/src/routes.php`:
 
 ```php
 // vendor/ckfinder/ckfinder-laravel-package/src/routes.php
