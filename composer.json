@@ -1,16 +1,20 @@
 {
-    "name": "ckfinder/ckfinder-laravel-package",
-    "description": "CKFinder 3 package for Laravel",
+    "name": "tannhatcms/ckfinder-laravel-package",
+    "description": "CKFinder 3 package for Laravel 8",
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.3.0",
         "laravel/framework": "^5.5|^6.20.42|^7.0|^8.0",
         "pimple/pimple": "~3.0",
         "league/flysystem": "^1.1.8",
         "league/flysystem-aws-s3-v3": "^1.0.13",
         "league/flysystem-cached-adapter": "^1.0.6",
         "spatie/flysystem-dropbox": "^1.0"
+    },
+
+    "replace": {
+        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
     },
     "autoload": {
         "psr-4": {
